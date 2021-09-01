@@ -1,14 +1,18 @@
 import React from "react"
 
 function Navbar(props){
-    <div>
+    return (
+    <div className="navbar">
         <p>Start Bootstrap</p>
-        <p>HOME</p>
-        <p>ABOUT</p>
-        <p>SAMPLE</p>
-        <p> CONTACT</p>
+        <div className="navlinks-container">
+        <p className="navlink">HOME</p>
+        <p className="navlink">ABOUT</p>
+        <p className="navlink">SAMPLE</p>
+        <p className="navlink"> CONTACT</p>
     </div>
-}
+    </div>
+    )}
 export default Navbar
+
 
 
